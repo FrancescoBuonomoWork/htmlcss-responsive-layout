@@ -77,6 +77,10 @@ a {
 .row > [class^='col'] {
 	padding: 0 25px;
 }
+.row.no-gutter [class^='col'] {
+	padding-left: 0;
+	padding-right: 0;
+}
 /* utility classes */
 
 .justify-between {
@@ -92,8 +96,14 @@ a {
 .text-xs{
     font-size: 18px;
 }
+.bold {
+    font-weight: 700;
+}
 .text-color-white{
     color: white;
+}
+.text-color-blue {
+    color: var(--blue);
 }
 /* component classes */
 
@@ -121,7 +131,25 @@ a {
 .hamburger-menu{
     display: none;
 }
-
+/* Hero section  */
+.card-hero {
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    padding: 25px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 25px; */
+}
+.card-hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;  
+}
+.card-hero-img {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -25px;
+}
 /* Media query  */
 
 /* Tablet  */
