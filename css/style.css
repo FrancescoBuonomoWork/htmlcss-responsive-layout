@@ -42,6 +42,7 @@ a {
 .container {
     max-width: 1164px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .container-medium {
@@ -154,9 +155,7 @@ a {
     padding: 25px;
     line-height: 2em;
     height: 100%;
-    /* display: flex;
-    flex-direction: column;
-    gap: 25px; */
+   
 }
 .card-hero-text{
     display: flex;
@@ -166,7 +165,11 @@ a {
 .card-hero-img {
     display: flex;
     align-items: flex-end;
-    margin-bottom: -25px;
+    /* margin-bottom: -25px; */
+}
+/* spazio sotto le colonne in sezione hero  */
+.row > [class^='col'] {
+    margin-bottom: 20px;
 }
 /* Media query  */
 
@@ -178,10 +181,17 @@ a {
     .navbar-list {
         display: none;
     }
-   
+   .hero .col-6 {
+    flex-basis: 100%;
+   }
    
 }
-
+/* Mobile  */
+@media screen and  (max-width: 575.98px) {
+    .row > [class^='col-'] {
+        flex-basis: 100%;
+    }
+}   
 /* debug */
 
 .debug .container,
