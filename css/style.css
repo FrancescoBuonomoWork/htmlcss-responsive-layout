@@ -82,12 +82,18 @@ a {
 	padding-right: 0;
 }
 /* utility classes */
+.margin-right{
+    margin-right: 5px;
+}
 
 .justify-between {
     justify-content: space-between;
 }
 .align-items-center {
     align-items: center;
+}
+.align-items-start {
+    align-items: flex-start;
 }
 .section-padding{
     padding-top: 50px;
@@ -98,6 +104,9 @@ a {
 }
 .bold {
     font-weight: 700;
+}
+.text-aling-center{
+    text-align: center;
 }
 .text-color-white{
     color: white;
@@ -115,6 +124,10 @@ a {
     border-radius: 20px;
     padding: 0 18px;
 }
+.button-blue{
+    background-color: var(--blue);
+    color: white;
+}
 
 /* header */
 .page-header {
@@ -131,11 +144,16 @@ a {
 .hamburger-menu{
     display: none;
 }
+.card-hero-icon{
+    font-size: 70px;
+}
 /* Hero section  */
 .card-hero {
     background-color: var(--light-blue);
     border-radius: 20px;
     padding: 25px;
+    line-height: 2em;
+    height: 100%;
     /* display: flex;
     flex-direction: column;
     gap: 25px; */
