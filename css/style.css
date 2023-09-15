@@ -125,8 +125,14 @@ a {
 .text-color-blue {
     color: var(--blue);
 }
+.text-color-black{
+    color: black;
+}
 .bg-purple{
     background-color: var(--purple);
+}
+.bg-white{
+    background-color: white;
 }
 /* component classes */
 
@@ -142,7 +148,10 @@ a {
     background-color: var(--blue);
     color: white;
 }
-
+/* card  */
+.card {
+    border-radius: 20px;
+}
 /* header */
 .page-header {
     background-color: var(--blue);
