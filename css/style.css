@@ -127,10 +127,8 @@ a {
     .navbar-list {
         display: none;
     }
-    /* .page-header .row {
-        justify-content: space-around;
-    } */
-    .page-header {
+   
+    .container {
         padding-left: 30px;
         padding-right: 30px;
     }
