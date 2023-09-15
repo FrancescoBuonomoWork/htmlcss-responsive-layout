@@ -105,9 +105,13 @@ a {
 .text-xs{
     font-size: 18px;
 }
+.text-medium{
+    font-size: 30px;
+}
 .bold {
     font-weight: 700;
 }
+
 .text-aling-center{
     text-align: center;
 }
