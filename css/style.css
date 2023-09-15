@@ -83,8 +83,13 @@ a {
 .align-items-center {
     align-items: center;
 }
-
-
+/* utility classes per il testo  */
+.text-xs{
+    font-size: 18px;
+}
+.text-color-white{
+    color: white;
+}
 /* component classes */
 
 .button {
@@ -99,13 +104,16 @@ a {
 /* header */
 .page-header {
     background-color: var(--blue);
+    padding: 25px 0;
 }
 
 .navbar-list {
     display: flex;
     gap: 22px;
     align-items: center;
+    
 }
+
 
 /* debug */
 
