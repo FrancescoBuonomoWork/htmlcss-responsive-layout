@@ -113,7 +113,28 @@ a {
     align-items: center;
     
 }
+.hamburger-menu{
+    display: none;
+}
 
+/* Media query  */
+
+/* Tablet  */
+@media screen and (max-width: 767.98px) {
+    .hamburger-menu {
+        display: flex;
+    }
+    .navbar-list {
+        display: none;
+    }
+    /* .page-header .row {
+        justify-content: space-around;
+    } */
+    .page-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 
 /* debug */
 
