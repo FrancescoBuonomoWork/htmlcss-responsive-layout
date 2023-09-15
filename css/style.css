@@ -18,6 +18,7 @@ menu {
 
 img {
     width: 100%;
+    display: block;
 }
 
 
@@ -87,6 +88,9 @@ a {
 /* utility classes */
 .margin-right{
     margin-right: 5px;
+}
+.mb-20{
+    margin-bottom: 20px;
 }
 
 .justify-between {
@@ -161,25 +165,26 @@ a {
 .card-hero {
     background-color: var(--light-blue);
     border-radius: 20px;
-    padding: 25px;
+    /* padding: 25px; */
     line-height: 2em;
     height: 100%;
+    padding: 25px 25px 0 25px;
+    
    
 }
 .card-hero-text{
     display: flex;
     flex-direction: column;
-    gap: 25px;  
+    gap: 25px;
+    /* margin: 25px; */
 }
 .card-hero-img {
     display: flex;
     align-items: flex-end;
-    /* margin-bottom: -25px; */
+   
 }
-/* spazio sotto le colonne in sezione hero  */
-.row > [class^='col'] {
-    margin-bottom: 20px;
-}
+
+
 /* Media query  */
 
 /* Tablet  */
