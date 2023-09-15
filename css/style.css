@@ -48,11 +48,13 @@ a {
 .container-medium {
     max-width: 1050px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .container-small {
     max-width: 880px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .row {
@@ -114,6 +116,9 @@ a {
 }
 .text-color-blue {
     color: var(--blue);
+}
+.bg-purple{
+    background-color: var(--purple);
 }
 /* component classes */
 
