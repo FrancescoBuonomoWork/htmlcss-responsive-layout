@@ -269,6 +269,9 @@ a {
     justify-content: center;
     gap: 15px;
 }
+.figure-testimonials{
+    flex-shrink: 0;
+}
 /* Media query  */
 
 /* Tablet  */
@@ -291,6 +294,15 @@ a {
    .card-hero-img img {
     margin: unset;
    }
+   .card-testimonials__text{
+    flex-basis: auto;
+   }
+   .padding-figure{
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    }
    
 }
 /* Mobile  */
