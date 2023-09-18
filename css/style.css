@@ -347,6 +347,9 @@ a {
         padding-right: 15px;
         padding-bottom: 35px;
     }
+    .section-benefits .col-4 {
+        flex-basis: 100%;
+       }
 }   
 /* debug */
 
