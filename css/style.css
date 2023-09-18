@@ -117,6 +117,13 @@ a {
     padding-top: 100px;
     padding-bottom: 34px;
 }
+
+.padding-figure{
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+}
 /* utility classes per il testo  */
 .text-uppercase{
     text-transform: uppercase;
@@ -245,6 +252,21 @@ a {
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+.card-testimonials{
+    display: flex;
+}
+.testimonial-img{
+    border-radius: 50%;
+    width: 200px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    /* padding: 10px; */
+}
+.card-testimonials__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /* Media query  */
 
