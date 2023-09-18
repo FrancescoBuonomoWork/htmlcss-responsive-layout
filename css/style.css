@@ -99,6 +99,9 @@ a {
 	padding-right: 0;
 }
 /* utility classes */
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
 .margin-right{
     margin-right: 5px;
 }
@@ -128,6 +131,7 @@ a {
 .section-padding{
     padding-top: 50px;
 }
+
 .section-padding-120px{
     padding-top: 120px;
 }
@@ -184,6 +188,9 @@ a {
 }
 .text-color-purple{
     color: var(--purple);
+}
+.bg-darkgrey{
+    background-color: var(--dark-grey);
 }
 .bg-purple{
     background-color: var(--purple);
@@ -338,6 +345,10 @@ a {
 }
 .get-started__copyright{
     margin-top: 30px;
+}
+/* FOOTER  */
+.footer{
+    padding: 50px 0;
 }
 /* Media query  */
 
