@@ -90,9 +90,10 @@ a {
 .margin-right{
     margin-right: 5px;
 }
-.mb-20{
-    margin-bottom: 20px;
+.padding-bottom-60 {
+    padding-bottom: 60px;
 }
+
 
 .justify-between {
     justify-content: space-between;
@@ -126,7 +127,9 @@ a {
 .bold {
     font-weight: 700;
 }
-
+.line-height-1_8{
+    line-height: 1.8;
+}
 .text-aling-center{
     text-align: center;
 }
@@ -159,6 +162,13 @@ a {
     background-color: var(--blue);
     color: white;
 }
+.button-circle {
+    border-radius: 50% 50%;
+    padding: 10px;
+    aspect-ratio: 1;
+}
+
+
 /* card  */
 .card {
     border-radius: 20px;
@@ -213,7 +223,14 @@ a {
     max-width: 254px;
     margin: 0 auto;
 }
-
+/* Strategic plan  */
+.strategic-plan__card {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+    padding: 20px;
+}
 
 /* Media query  */
 
