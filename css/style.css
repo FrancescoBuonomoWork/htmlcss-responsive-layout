@@ -137,6 +137,9 @@ a {
 .text-large{
     font-size: 40px;
 }
+.text-xl{
+    font-size: 64px;
+}
 .bold {
     font-weight: 700;
 }
@@ -184,7 +187,10 @@ a {
     aspect-ratio: 1;
     width: 50px;
 }
-
+.button-purple{
+    background-color: var(--purple);
+    color: white;
+}
 
 /* card  */
 .card {
@@ -272,6 +278,14 @@ a {
 }
 .figure-testimonials{
     flex-shrink: 0;
+}
+ /* BENEFIT SECTION  */
+.card-benefits-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+    padding: 20px;
 }
 /* Media query  */
 
