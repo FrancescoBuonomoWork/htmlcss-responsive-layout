@@ -288,6 +288,9 @@ a {
     align-items: center;
     padding: 20px;
 }
+.strategic-plan__card-img{
+    max-width: 270px;
+}
 /* Testimonial section  */
 .testimonial-section-intro {
     display: flex;
@@ -372,6 +375,9 @@ a {
    .card-hero-img img {
     margin: unset;
    }
+   .strategic-plan__card-img{
+    max-width: 100%;
+    }
    .card-testimonials__text {
     flex-basis: auto;
    }
